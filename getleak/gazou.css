@@ -1,0 +1,426 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+header {
+  position: relative;
+  /*top: 0;
+  left: 0;*/
+  z-index: 999;
+
+  width: 100%;
+  height: 50px;
+/*#3B5998;#e9e9e9*/
+    background: #e9e9e9;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 -20px 20px 20px;
+}
+
+header h1 {
+  margin: 0 0 50px;
+  padding: 0 160px ;;
+
+  height: 50px;
+  line-height: 100px;
+  font-weight: 400;
+  font-size: 18px;
+  float: left;
+}
+
+.header {
+  padding: 0px;
+  background: #e9e9e9;
+  color: #555;
+  text-align: left;
+  margin:0px;
+}
+
+.wrapper {
+  /*margin-top: 50px;*/
+  padding: 15px 30px ;
+  transition: all 0.3s ease-out;
+
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* Small devices (tablets)
+==========================*/
+@media (min-width: 768px) {
+
+}
+
+
+/* Medium devices (desktops)
+==========================*/
+@media (min-width: 992px) {
+
+  body {
+    overflow-y: scroll;
+  }
+
+  .logo img {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    float: none;
+  }
+
+  .wrapper {
+    margin-left: 60px;
+  }
+
+  .wrapper__minify {
+    margin-left: 50px;
+  }
+
+}
+
+.earth1{
+
+  line-height: 60px;
+  font-weight: 400;
+padding: 0 10px;
+
+}
+.earth2{
+padding: 13px 100px ;
+  float: left;
+}
+.earth3{
+
+padding: 13px ;
+  	padding-left:290px;
+  	padding-top:0px;
+  	color:#fff;
+}
+
+.earth1{
+
+    line-height: 60px;
+    font-weight: 400;
+  float: left;
+
+}
+.earth2{
+
+  float: left;
+}
+.earth3{
+
+
+  	padding-left:290px;
+  	padding-top:0px;
+  	color:#fff;
+}
+
+
+
+dl.search1{
+
+	width:500px;
+	margin-left:20px;
+	margin-top:9px;
+	position:relative;
+	background-color:#fff;
+	border: none;
+
+}
+dl.search1 dt{
+	margin-right:32px;
+	padding: none;
+
+}
+dl.search1 dt input{
+	font-size:20px;
+	width:100%;
+	height:30px;
+	line-height:0px;
+	background:none;
+	 border: none;
+
+}
+dl.search1 dd{
+	position:absolute;
+	top:0;
+	right:0;
+	float:left;
+}
+dl.search1 dd button{
+	display:block;
+
+	padding:0px;
+	background:none;
+	 border: none;
+	float:left;
+}
+dl.search1 dd button span{
+	display:block;
+	width:30px;
+	height:28px;
+	background:url('/img/searth.png') no-repeat scroll 0 0;
+	float:left;
+
+}
+input[type="text"] {
+  border: 1px solid #999;
+}
+input[type="text"]:focus {
+  border: 1px solid #ff9900;
+  outline: 0;
+}
+dl.search1 dd button {
+  border: 1px solid #999;
+}
+dl.search1 dd button:focus {
+  border: 1px solid #ff9900;;
+  outline: 0;
+}
+.box11{
+    padding: 0.5em 1em;
+    margin: 1em 0em;
+    color: #5d627b;
+    width:650px;
+    background: white;
+    border-top: solid 5px #3B5998;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+    margin: 0;
+    padding:0;
+
+}
+.contents__inner1 {
+	float:left;
+	padding-right:10px;
+	width: 680px;
+  	padding: 0px 30px 30px 30px;
+	background: #;
+	margin-left: 10px;
+
+	text-align:left;
+	height: auto !important;
+  	  height: 100%;
+	font-size:18px;
+	margin-bottom: 30px;
+		word-break:break-all;
+}
+.contents__inner2 {
+   margin: 0px auto;
+      padding-right:30px;
+ 	float:left;
+	width: 533px;
+	height: 450px;
+  	box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+	-webkit-box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+	-moz-box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+	/*ボックスのデザイン*/
+	padding: 10px 10px 10px 10px;
+	border:1px solid #ccc;
+		background: #;
+	text-align:left;
+	font-size:18px;
+ 	margin-left:120px;
+	margin-bottom: 30px;
+		height: auto !important;
+  	  height: 100%;
+}
+
+
+
+ .pageNav04c {
+	/zoom: 1;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 10px;
+	padding: 10px;
+	background: #eee;
+  text-decoration: none;
+}
+
+
+ .pageNav04c ul {
+	position: relative;
+	left: 50%;
+	float: left;
+  text-decoration: none;
+}
+
+ .pageNav04c ul li {
+	position: relative;
+	left: -50%;
+	float: left;
+	margin: 0;
+}
+
+.pageNav04c li span,
+ .pageNav04c li a {
+	display: inline-block;
+	margin: 0 1px 1px 0;
+	padding: 1px 8px;
+	background: #fff;
+	border: 1px solid #aaa;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+ .pageNav04c li a:hover {
+	background: #eeeff7;
+	border-color: #00f;
+  text-decoration: none;
+}
+
+#keyword{
+margin: 0px auto;
+	width:700px;
+}
+.nav vertical_nav vertical_nav__opened{
+  font-size: 60px;
+}
+/*コメント吹き出し*/
+.balloon5 {
+    width: 100%;
+    margin: em 0;
+    overflow: hidden;
+}
+
+.balloon5 .faceicon {
+    float: left;
+    margin-right: -50px;
+    width: 150px;
+}
+
+.balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+}
+
+.balloon5 .chatting {
+    width: 100%;
+}
+
+.says {
+    display: inline-block;
+    position: relative;
+    margin: 30px 0 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+
+}
+
+.says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    left: -24px;
+    border: 12px solid transparent;
+
+}
+
+.says p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list li{
+	width:200px;
+	float:left;
+	margin-right:10px;
+	position:relative;
+	padding-bottom:50px;
+  text-decoration: none;
+    list-style: none;
+}
+
+.btn{
+	position:absolute;
+	left:10px;
+	bottom:10px;
+
+}
+img.example1 {
+width: 100%;
+height: 40px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+
+
+.balloon1 {
+    width: 100%;
+    margin: 1.5em 0;
+    overflow: hidden;
+}
+
+.balloon1 .faceicon1 {
+    float: left;
+    margin-right: -90px;
+    width: 80px;
+}
+
+.balloon1 .faceicon1 img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+}
+
+.balloon1 .chatting1{
+    width: 100%;
+}
+
+.says1 {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 80px;
+    padding: 17px 13px;
+    border-radius: 120px;
+
+}
+
+.says1:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    border: 12px solid transparent;
+
+}
+
+.says1 p {
+    margin: 0;
+    padding: 0;
+}
